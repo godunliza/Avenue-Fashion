@@ -1,0 +1,237 @@
+
+html{
+    font-size: 13px;
+}
+
+
+
+
+@import "node_modules/bootstrap/scss/bootstrap-reboot";
+@import "node_modules/bootstrap/scss/type";
+@import "node_modules/bootstrap/scss/images";
+@import "node_modules/bootstrap/scss/code";
+@import "node_modules/bootstrap/scss/grid";
+@import "node_modules/bootstrap/scss/navbar";
+@import "node_modules/bootstrap/scss/utilities";
+@import "node_modules/bootstrap/scss/buttons";
+@import "node_modules/bootstrap/scss/dropdown";
+@import "node_modules/bootstrap/scss/card";
+
+
+
+@font-face{
+    font-family: Montserrat-Bold;
+    src:url(../fonts/Montserrat/Montserrat-Bold.ttf);
+}
+@font-face{
+    font-family: Monsterrat-Regular;
+    src: url(../fonts/Montserrat/Montserrat-Regular.ttf);
+}
+@font-face{
+    font-family: Monsterrat-Light;
+    src: url(../fonts/Montserrat/Montserrat-Light.ttf);
+}
+
+
+
+.container-fluid
+{
+    padding: 0;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style-type: none;
+}
+.btn-nav_basket
+{
+    height: 100%;
+    width: 150px;
+    
+}
+.container
+{
+    height: 100%;
+}
+
+.navbar_top
+{
+    padding: 0;
+    height:45px;
+}
+.navbar_main
+{
+    font-family: Montserrat-Bold;
+    padding: 37px 0;
+}
+.navbar-brand
+{
+    font-size: 24px;
+}
+.navbar-brand_word
+{
+    font-family:  Monsterrat-Regular;
+}
+
+.form-control
+{
+  background-image:url(../icons/glass.svg);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-color: #f8f8f8;
+  font-family: Monsterrat-Light;
+
+}
+.header_pic
+{
+    height: 451px;
+    width: 100%;
+
+    background-image: url(../images/1.png);
+    background-position:  center 23%;
+   
+}
+
+#overlay {
+    position: sticky;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 2;
+    cursor: pointer;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    color: white;
+  }
+  #text{
+    font-family: Monsterrat-Regular;
+  }
+ #text h3{
+     
+     font-size: 48px;
+ }
+ #text h4{
+     
+    display: flex;
+    justify-content: center;
+}
+ .header_pic_ovelay_text_first
+ {
+    font-family: Montserrat-Bold;
+ }
+.card{
+    border:0;
+}
+.main_cards
+{
+    padding: 60px 0 60px 0;
+    font-family: Monsterrat-Regular;
+}
+.card-title{
+    font-size: 18px;
+}
+.card-text
+{
+    font-size: 15px;
+}
+
+.card-body .btn{
+font-size: 16px;
+padding: 11px 35px 11px 35px;
+
+}
+.card-body .btn:hover
+{
+background-color: #00c8c8;
+border: 1px solid #00c8c8;
+}
+.card_inf>li 
+{
+    margin: 18px 0;
+}
+.card_desc
+{
+    padding-bottom:123px;
+}
+.card{
+    color:#575153;
+}
+.footer_list
+{
+   display:flex;
+   justify-content: space-between;
+   color:#575153
+ 
+}
+.footer_list .nav-item{
+    font-family: Monsterrat-Light;
+    font-size: 14px;
+   
+
+
+}
+.nav-link,.nav-item{
+    color:#575153;
+}
+.footer_list h6{
+    padding-top: 66px;
+    padding-bottom: 34px;
+}
+.footer_list .nav-item {
+    padding-bottom: 19px;
+    
+}
+.footer_banners
+{
+  
+    color: white;
+    padding-bottom: 57px;
+    
+    
+}
+.footer_banners_aw{
+   
+    display: flex;
+    flex-direction: column;
+    //height: 120px;
+    padding: 32px 0 32px 0;
+    font-size: 36px;
+    background-color: #333333;
+    margin-right:19px;
+    justify-content: center;
+    align-items: center;
+
+}
+.footer_banners_aw h4{
+    font-family: Monsterrat-Light;
+}
+
+.footer_banners_socials
+{
+    padding: 32px 0 32px 0;
+    background-color: #00c8c8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    img{
+        padding-left: 57px;
+
+    }
+    &:nth-child(0){
+        padding-left: 0;
+
+    }
+    
+}
+.footer_banners_aw h4{
+    
+}
+//575153
