@@ -6056,6 +6056,10 @@ li {
   height: 100%;
 }
 
+.nav-link, .nav-item {
+  color: #575153;
+}
+
 .navbar_top {
   padding: 0;
   height: 45px;
@@ -6171,10 +6175,6 @@ li {
 .footer_list .nav-item {
   font-family: Monsterrat-Light;
   font-size: 14px;
-}
-
-.nav-link, .nav-item {
-  color: #575153;
 }
 
 .footer_list h6 {

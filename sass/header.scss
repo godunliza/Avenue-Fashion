@@ -1,0 +1,71 @@
+
+.navbar_top
+{
+    padding: 0;
+    height:45px;
+}
+.navbar_main
+{
+    font-family: Montserrat-Bold;
+    padding: 37px 0;
+}
+.navbar-brand
+{
+    font-size: 24px;
+}
+.navbar-brand_word
+{
+    font-family:  Monsterrat-Regular;
+}
+
+.form-control
+{
+  background-image:url(../icons/glass.svg);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-color: #f8f8f8;
+  font-family: Monsterrat-Light;
+
+}
+.header_pic
+{
+    height: 451px;
+    width: 100%;
+
+    background-image: url(../images/1.png);
+    background-position:  center 23%;
+   
+}
+
+#overlay {
+    position: sticky;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 2;
+    cursor: pointer;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    color: white;
+  }
+  #text{
+    font-family: Monsterrat-Regular;
+  }
+ #text h3{
+     
+     font-size: 48px;
+ }
+ #text h4{
+     
+    display: flex;
+    justify-content: center;
+}
+ .header_pic_ovelay_text_first
+ {
+    font-family: Montserrat-Bold;
+ }
